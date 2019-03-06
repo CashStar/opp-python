@@ -2,7 +2,7 @@
 __author__ = 'PAY.ON'
 from requests import Session
 import opp.config
-from six.moves import http_client
+from http import client as http_client
 import logging
 
 logger = logging.getLogger(__name__)

@@ -3,9 +3,9 @@ __author__ = 'PAY.ON'
 import sys
 
 if sys.version_info < (3, 4):
-    install_requires = ['requests >= 2.5.3', 'six >= 1.9.0', 'pyopenssl', 'ndg-httpsclient', 'pyasn1']
+    install_requires = ['requests >= 2.5.3', 'pyopenssl', 'ndg-httpsclient', 'pyasn1']
 else:
-    install_requires = ['requests >= 2.5.3', 'six >= 1.9.0']
+    install_requires = ['requests >= 2.5.3']
 
 from setuptools import setup
 
